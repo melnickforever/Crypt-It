@@ -1,0 +1,31 @@
+body{
+    min-width: 235px;
+}
+.form_input{
+    border-radius: 5px;
+    width: 226px;
+}
+
+.form_btn{
+    border-radius: 5px;
+}
+.btn_block{
+    text-align: right;
+}
+.label{
+    font-style: oblique;
+}
+.title{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.error {
+    color: #ff0000;
+}
+
+.pass_cont{
+    padding-bottom: 4px;
+}
+.input_cont{
+    padding-top: 2px;
+}

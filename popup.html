@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/jquery.js"></script>
+    <script src="js/crypt_it.js"></script>
+    <script src="js/jquery.autosize.min.js"></script>
+    <link href="css/crypt_it.css" rel="stylesheet" media="all">
+    <title></title>
+</head>
+<body>
+    <div class="title"><b>Crypt It</b></div>
+    <div class="label">Password</div>
+    <div class="error" id="pass_error">Invalid password</div>
+    <div class="pass_cont"><input type="password" class="form_input" id="password"></div>
+    <div class="label">Message</div>
+    <div class="error" id="input_error">Invalid message</div>
+    <div class="input_cont"><textarea id="input" class="form_input"></textarea></div>
+    <div id="result"></div>
+
+    <div class="btn_block">
+        <span><input class="form_btn" id="btn_crypt" type="button" value="Crypt"></span> 
+        <span><input class="form_btn" id="btn_decrypt" type="button" value="Decrypt"></span>
+        <span><input class="form_btn" id="btn_copy" type="button" value="Copy"></span>
+        
+        <span><input class="form_btn" id="btn_close" type="button" value="Close"></span>
+
+    </div>
+</body>
+</html>
