@@ -15,9 +15,5 @@
         "default_title": "Crypt It",
         "default_icon": "img/48x48.png",
         "default_popup": "popup.html"
-    },
-    "permissions": {
-        "clipboardRead",
-        "clipboardWrite",
-    },
+    }
 }
